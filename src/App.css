@@ -6,4 +6,61 @@
 
 body {
   font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.screen {
+  width: 90vw;
+  min-height: 650px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.timer-container {
+  background-image: url("./assets/pexels-fotografierende-3016320.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.timer-information {
+  padding: 70px;
+  height: 100%;
+}
+
+.icon {
+  font-size: 100px;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  padding: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.clock p {
+  font-size: 50px;
+}
+
+span {
+  font-size: 40px;
+}
+small {
+  font-size: 20px;
+}
+
+.clock div {
+  margin-right: 10px;
+  margin-left: 10px;
 }
